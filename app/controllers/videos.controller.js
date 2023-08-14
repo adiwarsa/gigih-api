@@ -112,6 +112,8 @@ exports.findAll = async (req, res) => {
           title: product.productName,
           price: product.productPrice,
           img: product.productImg,
+          description: product.description,
+          qty: product.productQty,
         };
       });
 
